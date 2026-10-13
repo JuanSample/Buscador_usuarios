@@ -1,5 +1,5 @@
 
-const API = 'https://jsonplaceholder.typicode.com/users';
+const API = 'https://jsonplaceholder.typicode.com/user<';
 
 const $ = (id) => document.getElementById(id);
 
@@ -32,7 +32,6 @@ async function cargarUsuarios() {
   }
 
 }
-
 // Crea los li de la lista (DOM dinámico)
 
 function pintar(datos) {
@@ -93,3 +92,6 @@ lista.addEventListener('click', (e) => {
     `${u.name}\n${u.email}\n${u.company.name}`;
 
 });
+ 
+
+cargarUsuarios();
