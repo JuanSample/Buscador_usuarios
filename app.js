@@ -1,5 +1,5 @@
 
-const API = 'https://jsonplaceholder.typicode.com/user<';
+const API = 'https://jsonplaceholder.typicode.com/users';
 
 const $ = (id) => document.getElementById(id);
 
